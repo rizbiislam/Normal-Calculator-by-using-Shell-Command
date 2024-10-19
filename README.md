@@ -51,3 +51,103 @@ Developed a **multi-functional shell script calculator** 🎛️ capable of perf
 ---
 
 This shell script calculator combines simplicity and versatility, offering an efficient way to handle both everyday and advanced mathematical operations.
+
+
+# 📖 User Manual for **RN Calculator**
+
+## Getting Started
+
+1. **Run the Calculator Script**:
+   - Open your terminal.
+   - Navigate to the directory where the script is saved:
+     ```bash
+     cd /path/to/your/script
+     ```
+   - Make sure the script has execute permissions. If not, you can grant it permission by running:
+     ```bash
+     chmod +x calculator.sh
+     ```
+   - Run the calculator script with the following command:
+     ```bash
+     ./calculator.sh
+     ```
+
+2. **Initial Prompts**:
+   - After running the script, you will be prompted to enter your name:
+     ```
+     Enter Your Name:
+     ```
+   - Upon entering your name, you will receive a welcome message:
+     ```
+     Hello, [Your Name]! Welcome to RN Calculator.
+     ```
+
+3. **Starting the Calculation**:
+   - Next, you will see a prompt:
+     ```
+     Are you ready? 1 = yes / 2 = no
+     ```
+   - Press `1` to start using the calculator.
+
+---
+
+## Main Menu: Mathematical Operations
+Once you are ready, the calculator will display a list of operations it can perform. To select an operation, simply input the corresponding number.
+
+### **Supported Operations**:
+
+- **Basic Arithmetic**:
+  - **Addition**: Add two numbers.
+  - **Subtraction**: Subtract one number from another.
+  - **Multiplication**: Multiply two numbers.
+  - **Division**: Divide one number by another.
+
+- **Mathematical Functions**:
+  - **Square**: Find the square of a number.
+  - **Square Root**: Calculate the square root of a number.
+  - **Logarithm**: Compute the logarithm of a number.
+  - **Prime Check**: Determine whether a number is prime.
+  - **Trigonometric Functions**: Sine, Cosine, Tangent (in radians).
+  - **π (Pi)**: Retrieve the value of Pi.
+  - **e^x**: Calculate the exponential of a number.
+  - **Factorial**: Calculate the factorial of a number.
+
+- **Logical and Boolean Operations**:
+  - **AND (&&), OR (||), NOT**: Perform logical comparisons.
+
+- **Conversion Functions**:
+  - Convert between Decimal, Binary, Octal, and Hexadecimal.
+
+- **Temperature Conversions**:
+  - Fahrenheit to Celsius (°F to °C)
+  - Celsius to Kelvin (°C to K)
+  - Fahrenheit to Kelvin (°F to K)
+  - Kelvin to Fahrenheit (K to °F)
+
+---
+
+### **Example Operations**:
+
+- **Addition**:
+  - Choose operation `2` for addition.
+  - Input two numbers:
+    ```
+    Enter 1st Number: 5
+    Enter 2nd Number: 7
+    Ans: 12
+    ```
+
+- **Temperature Conversion (°F to °C)**:
+  - Choose operation `23`.
+  - Input the temperature in Fahrenheit:
+    ```
+    Enter the Number: 98.6
+    98.6 °F = 37 °C
+    ```
+
+---
+
+## ❌ Exiting the Session
+
+To close the session, enter `0` in the main menu. You will receive a friendly goodbye message:
+
